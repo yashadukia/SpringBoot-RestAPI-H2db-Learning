@@ -6,6 +6,7 @@ http://localhost:8081/h2-console/
 Conect using default credentials.
 
 Use postman to test these apis:
+
 GET - get info of all customers
 http://localhost:8081/customers
 
@@ -24,4 +25,5 @@ Input body raw:
 
 DEL - to delete a customer
 http://localhost:8081/customers/1
+
 Similarly, you can also try PUT request to update a record.
