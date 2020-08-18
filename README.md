@@ -10,10 +10,11 @@ GET - get info of all customers
 http://localhost:8081/customers
 
 GET - get info of specific customer
-http://localhost:8081/customers/<cid>
+http://localhost:8081/customers/1
 
 POST - to add a new customer
 http://localhost:8081/customers
+
 Input body raw:
 {
     "cid": int,
@@ -22,6 +23,5 @@ Input body raw:
 }
 
 DEL - to delete a customer
-http://localhost:8081/customers/<cid>
-  
+http://localhost:8081/customers/1
 Similarly, you can also try PUT request to update a record.
